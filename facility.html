@@ -2,12 +2,23 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- FontAwesome -->
      <script src="https://use.fontawesome.com/1724918b3e.js"></script>
+       <!-- FontAwesome -->
      <!-- Boot Strap -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      <!-- Boot Strap -->
+      <!-- JavaScript and JQuery -->
+       <script src="/script.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <!-- JavaScript and JQuery-->
+       <!-- Flickity -->
+       <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+       <!-- Flickity -->
+       
     <meta name="description" content="4ever Fitness club">
     <meta name="keywords" content="fitness club, gym, 4everfit, fitness">
     <meta name="author" content="Malachi Makin">
@@ -23,14 +34,23 @@
              <div id="branding">
                 <h1><span class="highlight"><span><img src="https://github.com/CodingAxl/4EverFitness/blob/master/images/4everlogo.gif?raw=true" class="logo" alt="4EverFitness Logo &copy;"></span>4Ever</span> Fitness</h1> 
              </div>
-             <nav>
-                 <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="mission.html">Mission</a></li>
-                     <li class="current"><a href="facility.html">Facility</a></li>
-                     <li><a href="contact.html">Contact</a></li>
+             <!--<nav>-->
+             <!--    <ul>-->
+             <!--        <li><a href="index.html">Home</a></li>-->
+             <!--        <li><a href="mission.html">Mission</a></li>-->
+             <!--        <li class="current"><a href="facility.html">Facility</a></li>-->
+             <!--        <li><a href="contact.html">Contact</a></li>-->
                      
-                 </ul>
+             <!--    </ul>-->
+             <!--</nav>-->
+                      <nav>
+               <div class="topnav" id="myTopnav">
+                    <a href="index.html">Home</a>
+                    <a href="mission.html">Mission</a>
+                    <a href="facility.html"class="current">Facility</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+               </div>
              </nav>
          </div>
      </header> 
@@ -52,17 +72,47 @@
             We hope you enjoy our state of the art equiptment, an extravegent amount of time went into researching the best tools to get the job done.</p>
 <p> With our intense and heart felt focus on circuit training this is not a gym you just come to move weights at. This is a health club where staff will help you develop the person you want to be. We will walk through the process from start to finish. Want to lose weight? We can set goals. Looking to gain muscle and prepare for that trithalon? Our experts will provide the right coaching and motivation to suceed in anything you dream up. See you soon!</p>
         </article>
-        
-        <aside id="sidebar">
-            <div class="dark">
-            <h3>What We Do</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nam ut lorem a enim aliquam faucibus sit amet eget risus. Sed et 
-          feugiat diam. Aenean a lectus ornare, egestas leo eu, semper diam.</p>
-          </div>
-        </aside>
-      </div>
   </section>
+  
+   <!-- "Work on slideshow of photos here" BELOW THIS LINE-->
+<div class="container-alt">
+    <div class="courses cf js-flickity" id="featured-courses" >
+  <div class="course-item slide">
+      <div class="course-summary card">
+          <div class="course-thumbnail">
+              <img src="img/mspaint-course.jpg" height="277" width="400" alt="Working on image gallery">
+          </div>
+          <div class="course-info">
+
+              
+          </div>
+      </div> 
+  </div>
+ 
+  <div class="course-item slide">
+      ...
+  </div>
+ 
+  ...
+</div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+  <!-- "Work on slideshow of photos here" ABOVE THIS LINE -->
+  
   
   <footer>
       <div ="container">

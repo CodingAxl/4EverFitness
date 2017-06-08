@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- FontAwesome -->
      <script src="https://use.fontawesome.com/1724918b3e.js"></script>
+       <!-- FontAwesome -->
      <!-- Boot Strap -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      <!-- Boot Strap -->
+      <!-- JavaScript and JQuery -->
+       <script src="/script.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <!-- JavaScript and JQuery-->
+       <!-- Flickity -->
+       <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+       <!-- Flickity -->
+       
     <meta name="description" content="4ever Fitness club">
     <meta name="keywords" content="fitness club, gym, 4everfit, fitness">
     <meta name="author" content="Malachi Makin">
@@ -24,15 +35,26 @@
              <div id="branding">
                 <h1><span class="highlight"><span><img src="https://github.com/CodingAxl/4EverFitness/blob/master/images/4everlogo.gif?raw=true" class="logo" alt="4EverFitness Logo &copy;"></span>4Ever</span> Fitness</h1> 
              </div>
-             <nav>
-                 <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li class="current"><a href="mission.html">Mission</a></li>
-                     <li><a href="facility.html">Facility</a></li>
-                     <li><a href="contact.html">Contact</a></li>
+             <!--<nav>-->
+             <!--    <ul>-->
+             <!--        <li><a href="index.html">Home</a></li>-->
+             <!--        <li class="current"><a href="mission.html">Mission</a></li>-->
+             <!--        <li><a href="facility.html">Facility</a></li>-->
+             <!--        <li><a href="contact.html">Contact</a></li>-->
                      
-                 </ul>
+             <!--    </ul>-->
+             <!--</nav>-->
+                          <nav>
+               <div class="topnav" id="myTopnav">
+                   
+                    <a href="index.html">Home</a>
+                    <a href="mission.html" class="current">Mission</a>
+                     <a href="facility.html">Facility</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+               </div>
              </nav>
+             
          </div>
      </header> 
       
@@ -61,17 +83,19 @@
             <p>The 4Ever Fitness staff will pride itself on providing outstanding client services within its extraordinarily clean facilities.</p>
         </article>
         
+        
         <aside id="sidebar">
-            <div class="dark">
-            <h3>What We Do</h3>
-            <ul>
-                <li>Circuit Training</li>
-                <li>Free Weights</li>
-                <li>Personal Training</li>
-                <li>Motivation</li>
-                
-            </ul>
-          </div>
+            
+            <div class="card dark">
+                  <img src="images/placeholder1.png" alt="Avatar" style="width:100%">
+                      <div class="container-alt">
+                        <h4><b>Jane Doe</b></h4> 
+                        <p>Founder</p> 
+                        <p>"Place Random Quote here." - Random Owner Quote</p>
+                      </div>
+            </div>
+            
+          
         </aside>
       </div>
   </section>
