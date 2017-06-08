@@ -192,6 +192,13 @@ footer{
     width:30%;
     margin-top:10px;
 }
+#sidebar ul{
+    padding-left:20px;
+    font-weight:lighter;
+}
+#sidebar li{
+    font-weight:lighter;
+}
 
 /*main-col*/
 #main-col{
