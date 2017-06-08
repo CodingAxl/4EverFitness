@@ -236,7 +236,7 @@ footer{
 
 @media screen and (max-width:438px){
     
-    nav li, nav a, logo{
+    nav li, nav a, logo, section #main, aside #sidebar{
         display:block;
         width:100%;
         text-align:center;
