@@ -10,7 +10,7 @@ body{
     background-color:#f4f4f4;
 }
 
-.container{
+.container-alt{
     width:85%;
     margin:auto;
     overflow:hidden;
@@ -44,10 +44,11 @@ ul{
 }
 
 .logo{
-    max-height:40px;
-    max-width:40px;
-    padding-left:20px;
+    max-height:90px;
+    max-width:75px;
+    margin-left:20px;
     margin-top:5px;
+    padding-bottom:15px;
    
 }
 
@@ -67,6 +68,7 @@ header{
     padding-top:30px;
     min-height:70px;
     border-bottom:#1db8e8 3px solid;
+    text-align:center;
     
 }
 header a{
@@ -165,7 +167,7 @@ font-size:20px;
 #boxes .box{
     float:left;
     width:30%;
-    padding:10px;
+    padding:20px;
     text-align:center;
     
 }
@@ -196,5 +198,48 @@ footer{
     float:left;
     width:65%;
     
+}
+
+/*footer*/
+
+.facebook a{
+   color:blue;
+    text-decoration:none;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.youtube a{
+    text-decoration:none;
+    box-shadow: 5px 5px 2px #888888;
+    color:red;
+    
+}
+
+.facebook a:hover{
+    color:white;
+    
+}
+
+
+.youtube a:hover{
+    color:white;
+    
+}
+
+@media screen and (max-width:700px){
+    
+    #boxes .box{
+        float:none;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:438px){
+    
+    nav li, nav a, logo{
+        display:block;
+        width:100%;
+        text-align:center;
+    }
 }
 
