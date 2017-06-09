@@ -127,37 +127,6 @@ nav{
 
 
 
-
-
-
-
-/* FOR OLD NAVIGATION 6/8/17
-header a{
-    color:#ffffff;
-    text-decoration:none !important;
-    text-transform:uppercase;
-    font-size:16px;
-}
-
-header li{
-    float:left;
-    display:inline;
-    padding: 0 20px 0 20px;
-}
-
-header nav{
-    float:right;
-    margin-top:10px;
-}
-
-header a:hover{
-    color:#cccccc;
-    font-weight:bold;
-    text-decoration:none;
-    
-}
-*/
-
 header .highlight, header .current a{
     color:#1db8e8;
     font-weight:bold;
@@ -319,13 +288,6 @@ img {
     
 }
 
-/* FLICKITY */
-
-
-
-
-
-/* FLICKITY */
 
 
 @media screen and (max-width:700px){
@@ -335,22 +297,6 @@ img {
         width:100%;
     }
 }
-/* FOR OLD NAVIGATION 6/8/17
-@media screen and (max-width:438px){
-    
-    nav li, nav a{
-        display:block;
-        width:100%;
-        text-align:center;
-        clear:both;
-        
-    }
-    
-    
-}
-
-*/
-
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 727px) {
   .topnav a:not(:first-child) {display: none;}
