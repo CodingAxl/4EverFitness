@@ -70,7 +70,6 @@ header{
     border-bottom:#1db8e8 3px solid;
     text-align:center;
     
-    
 }
 
 header h1{
@@ -263,6 +262,22 @@ img {
     
 }
 
+
+/*contact*/
+.contact-card{
+    
+    float:left;
+    width:100%;
+    text-align:center;
+    background-color: #35424a;
+    color: white;
+    padding: 60px 30px 68px 30px;
+    
+    
+    
+}
+
+
 /*footer*/
 
 .facebook a{
@@ -297,7 +312,7 @@ img {
         width:100%;
     }
 }
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 727 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 727px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -325,12 +340,14 @@ img {
  
 }
 
+/* this makes the nav bar clear the H1 header for smoother outline on mobile apps*/
 @media screen and (max-width: 727px) {
 .topnav{
       clear:both;
       float:none;
   }}
 
+/*contact page reset to 100% width to prevent smooshed elements */
 @media screen and (max-width: 727px) {
     
     #sidebar{
@@ -345,5 +362,17 @@ img {
     
 }
     
+}
+@media screen and (max-width: 1176px) {
+   .contact-card{
+        width:100%;
+        float:none;
+        
+    }
     
+    
+    #gmap_canvas{
+        width:100%;
+        clear:both;
+    }
 }
