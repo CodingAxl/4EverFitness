@@ -66,7 +66,8 @@
         
         
     <!-- MAP HERE -->
-         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmJauqdA8LtOajqFTvo4ZePJYghGXssuU&callback=myMap"></script>
+      
          <div style='overflow:hidden;height:375px;width:100%;'>
              <div id='gmap_canvas' style='height:375px;width:100%;'>
                  
@@ -76,7 +77,7 @@
              
              <script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(29.12645779999999,-81.02513650000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(29.12645779999999,-81.02513650000003)});infowindow = new google.maps.InfoWindow({content:'<strong>4Ever Fitness</strong><br>4639 Clyde Morris Blvd. #101 Port Orange, FL 32129<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
         
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmJauqdA8LtOajqFTvo4ZePJYghGXssuU&callback=myMap"></script>
+        
            
             <!-- MAP HERE -->
         
